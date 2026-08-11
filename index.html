@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<!-- Primary -->
+<title>The Bench — Interactive Music Tools by Khaled Mahmud</title>
+<meta name="description" content="A workshop of interactive music tools: analyze real instrument notes, build tones with additive synthesis, learn tabla and taal, and work through a fully interactive music theory course — by Khaled Mahmud.">
+<meta name="author" content="Khaled Mahmud">
+<meta name="keywords" content="Khaled Mahmud, music theory, note analyzer, frequency analysis, additive synthesis, tabla, taal, rhythm training, interactive learning">
+<link rel="canonical" href="https://your-username.github.io/the-bench/">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#ffb300">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="The Bench">
+<meta property="og:title" content="The Bench — Interactive Music Tools">
+<meta property="og:description" content="A workshop of interactive music tools: analyze notes, build tones, learn tabla, and work through an interactive music theory course.">
+<meta property="og:url" content="https://your-username.github.io/the-bench/">
+<meta property="og:image" content="https://your-username.github.io/the-bench/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="The Bench — a workshop of interactive music tools">
+<meta property="og:locale" content="en_US">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The Bench — Interactive Music Tools">
+<meta name="twitter:description" content="A workshop of interactive music tools by Khaled Mahmud.">
+<meta name="twitter:image" content="https://your-username.github.io/the-bench/og-image.png">
+<meta name="twitter:image:alt" content="The Bench — a workshop of interactive music tools">
+
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+
+<!-- Structured data: the site itself -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "The Bench",
+  "alternateName": "Interactive Music Tools",
+  "url": "https://your-username.github.io/the-bench/",
+  "description": "A workshop of interactive music tools by Khaled Mahmud.",
+  "author": {
+    "@type": "Person",
+    "name": "Khaled Mahmud"
+  }
+}
+</script>
+<!-- Structured data: the unit directory (filled at runtime from data.json) -->
+<script type="application/ld+json" id="ld-itemlist">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "The Bench — unit directory",
+  "itemListElement": []
+}
+</script>
+</head>
+<body>
+
+  <div class="unit">
+    <div class="inner">
+
+      <header class="portal-header">
+        <div class="brand">
+          <span class="lamp on" aria-hidden="true"></span>
+          <div>
+            <h1>The Bench</h1>
+            <div class="model">A WORKSHOP OF INTERACTIVE MUSIC TOOLS</div>
+          </div>
+        </div>
+        <div class="status-lamp">
+          <span class="lamp on" aria-hidden="true"></span>
+          <span id="status-count">LOADING\u2026</span>
+        </div>
+      </header>
+
+      <p class="portal-intro" id="intro">
+        Four hands-on tools for learning, analyzing, and building music — pick a unit below to get started.
+      </p>
+
+      <div class="search">
+        <input id="q" type="text" placeholder="Search units\u2026" autocomplete="off" aria-label="Search units">
+        <kbd>/</kbd>
+      </div>
+
+      <div class="rack" id="rack"></div>
+      <div class="empty" id="empty">// no matches — try another term</div>
+
+      <noscript>
+        <p style="color:var(--cream-dim);font-size:13px;">
+          This page loads its unit list from data.json via JavaScript. Enable JavaScript to see the full directory.
+        </p>
+      </noscript>
+
+      <footer>
+        <b>The Bench</b> — built for learning music by ear, by hand, and by ear again.
+        <span id="foot-meta"></span>
+      </footer>
+
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

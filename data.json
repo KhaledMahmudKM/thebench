@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "updated": "August 10, 2026",
+    "author": "Khaled Mahmud",
+    "tagline": "Four hands-on tools for learning, analyzing, and building music — pick a unit below to get started."
+  },
+  "units": [
+    {
+      "title": "Note Bench",
+      "tag": "TIME & FREQUENCY ANALYZER",
+      "description": "Analyze the notes of real instruments in both the time and frequency domain — see the waveform and the spectrum behind every pitch.",
+      "url": "https://your-username.github.io/note-bench/",
+      "status": "online"
+    },
+    {
+      "title": "Instrument Bench",
+      "tag": "ADDITIVE SYNTHESIS LAB",
+      "description": "Build custom tones from scratch — shape harmonics, play them on a keyboard, and hear exactly how additive synthesis works.",
+      "url": "https://your-username.github.io/instrument-bench/",
+      "status": "online"
+    },
+    {
+      "title": "Taal Bench",
+      "tag": "TABLA & RHYTHM TRAINER",
+      "description": "Learn the basics of tabla and taal — the rhythmic cycles at the heart of Indian classical music.",
+      "url": "https://your-username.github.io/taal-bench/",
+      "status": "online"
+    },
+    {
+      "title": "Music Theory Book",
+      "tag": "13-CHAPTER INTERACTIVE COURSE",
+      "description": "A fully interactive music theory course — click a keyboard, build a chord, or play through a progression instead of just reading about it.",
+      "url": "https://your-username.github.io/music-theory-book/",
+      "status": "online"
+    }
+  ]
+}
